@@ -1,4 +1,4 @@
-Complete NodeJS
+Complete NodeJS Syallabus
 1. Why Node.JS 
 2. What is Node.JS 
 3. Installation [Node.js, Vs Code] 
