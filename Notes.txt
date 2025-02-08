@@ -18,7 +18,28 @@ import syntax-> New Technique
 require syntax-> Old Technique
 ===============================================================================================================
 
-6. File Handling In Node.js 
+6. File Handling In Node.js   ✅✅✅
+### **File Handling in Node.js**
+
+1. **Read a File**: 
+   - **Keyword**: `readFile()`
+   - Purpose: Reads the content of a file asynchronously.
+
+2. **Create a File**: 
+   - **Keyword**: `writeFile()`
+   - Purpose: Creates a new file or overwrites an existing one with new content.
+
+3. **Append to a File**: 
+   - **Keyword**: `appendFile()`
+   - Purpose: Adds content to the end of an existing file.
+
+4. **Create a Directory**: 
+   - **Keyword**: `mkdir()`
+   - Purpose: Creates a new directory. Use `recursive: true` to create nested directories.
+
+These are the core methods for file and directory operations in Node.js.
+===============================================================================================================
+
 Syntax to import fs module-> import {} from 'fs/promises'
 7. Path Module In Node.js 
 8. Building Server (HTTP Modules In Node.js )
