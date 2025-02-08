@@ -19,6 +19,7 @@ require syntax-> Old Technique
 ===============================================================================================================
 
 6. File Handling In Node.js 
+Syntax to import fs module-> import {} from 'fs/promises'
 7. Path Module In Node.js 
 8. Building Server (HTTP Modules In Node.js )
 9. Routing In Node.js 
