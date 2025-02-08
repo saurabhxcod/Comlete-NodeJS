@@ -1,0 +1,33 @@
+Complete NodeJS
+1. Why Node.JS 
+2. What is Node.JS 
+3. Installation [Node.js, Vs Code] 
+4. Nodemon Installation & Npm Init 
+5. Modules In Node.js 
+6. File Handling In Node.js 
+7. Path Module In Node.js 
+8. Building Server (HTTP Modules In Node.js )
+9. Routing In Node.js 
+10. Express.JS Introduction & Installation 
+11. Create Server In Express.JS 
+12. CRUD Operation In Express.JSnn 
+13. Send JSON, HTML, HTML File In Response 
+14. Template Engine (ejs || SSR (Server Side Rendering ))
+15. Set Static fie In ejs, Express.JS 
+16. Form Handling In Express.JS 
+17. MongoDB Atlas Setup 
+18. Connect MongoDB + Express.JS 
+19. MVC - Models Views & Controllers In Express.JS 
+20. Project - 1 [URL - Shortener] 
+21. Project -2 [Image Uploader ] - Multer & Cloudinary 
+22. Project - 3 [Full Stack Authentication With File Upload] 
+23. What is API ? Sudh Desi Bhasha Mai Explain! 
+24. Project - 4 [Contact API With Full Authentication] 
+25. API Testing - Postman & ThunderClient 
+26. Add MongoDB In API || CRUD Operation In API 
+27. User Register & Login API 
+28. Bcrypt.JS In API || Hashing The Password 
+29. Http Status Code In API 
+30. Convert API to MVC 
+31. Middleware In API || Add Auth Middleware In API 
+32. Deploy API to Render
