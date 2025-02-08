@@ -1,6 +1,10 @@
 Complete NodeJS Syallabus
 1. Why Node.JS 
 2. What is Node.JS 
+->Node JS is a runtime environment that allows javascript to run outside the browser,built on chrome V8 enigne.
+->It uses and event driven,non-blocking I/O model,making it efficient for scalablw applications.
+->Ideal for building server-side applications like APIs,real time apps,and microservices.
+->Runs on multiple platforms(Windows,linux,MacOS) and uses npm for managing packages.
 3. Installation [Node.js, Vs Code] 
 4. Nodemon Installation & Npm Init 
 5. Modules In Node.js 
