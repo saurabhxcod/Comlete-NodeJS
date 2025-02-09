@@ -19,6 +19,7 @@ require syntax-> Old Technique
 ===============================================================================================================
 
 6. File Handling In Node.js   ✅✅✅
+Syntax to import fs module-> import {} from 'fs/promises'
 ### **File Handling in Node.js**
 
 1. **Read a File**: 
@@ -40,8 +41,10 @@ require syntax-> Old Technique
 These are the core methods for file and directory operations in Node.js.
 ===============================================================================================================
 
-Syntax to import fs module-> import {} from 'fs/promises'
-7. Path Module In Node.js 
+7. Path Module In Node.js  ✅✅✅
+
+===============================================================================================================
+
 8. Building Server (HTTP Modules In Node.js )
 9. Routing In Node.js 
 10. Express.JS Introduction & Installation 
