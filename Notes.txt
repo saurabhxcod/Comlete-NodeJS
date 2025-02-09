@@ -42,10 +42,15 @@ These are the core methods for file and directory operations in Node.js.
 ===============================================================================================================
 
 7. Path Module In Node.js  ✅✅✅
+Syntax->import path from "path"
+path.join,path.resolve,path.extname
 
 ===============================================================================================================
 
-8. Building Server (HTTP Modules In Node.js )
+8. Building Server (HTTP Modules In Node.js )  ✅✅✅
+
+===============================================================================================================
+
 9. Routing In Node.js 
 10. Express.JS Introduction & Installation 
 11. Create Server In Express.JS 

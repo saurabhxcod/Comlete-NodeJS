@@ -11,3 +11,14 @@ const absolutePath=path.resolve();
 console.log(absolutePath);
 
 
+//extension name
+
+const extname=path.extname('resume.docs');
+console.log(extname);
+if(extname==".docs"){
+    console.log("OK")
+}
+else{
+    console.log("Not Ok!")
+}
+
