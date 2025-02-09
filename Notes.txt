@@ -56,7 +56,11 @@ server.listen(PORT,()=>{
 })
 ===============================================================================================================
 
-9. Routing In Node.js 
+9. Routing In Node.js  ✅✅✅
+Syntax->req.url 
+
+===============================================================================================================
+
 10. Express.JS Introduction & Installation 
 11. Create Server In Express.JS 
 12. CRUD Operation In Express.JSnn 
