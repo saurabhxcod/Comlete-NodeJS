@@ -93,7 +93,11 @@ logic, promoting cleaner code and easier maintenance.
 for Ejs we use res.render();
 ===============================================================================================================
 
-15. Set Static fie In ejs, Express.JS 
+15. Set Static fie In ejs, Express.JS   ✅✅✅
+we use middleware to set static file in ejs.
+
+===============================================================================================================
+
 16. Form Handling In Express.JS 
 17. MongoDB Atlas Setup 
 18. Connect MongoDB + Express.JS 
