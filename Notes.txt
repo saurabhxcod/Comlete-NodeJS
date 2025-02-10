@@ -78,8 +78,11 @@ U->update=PUT(method)
 D->delete=delete(method)
 ===============================================================================================================
 
+13. Send JSON, HTML, HTML File In Response  ✅✅✅
+res.json,res.send,res.sendFile
 
-13. Send JSON, HTML, HTML File In Response 
+===============================================================================================================
+
 14. Template Engine (ejs || SSR (Server Side Rendering ))
 15. Set Static fie In ejs, Express.JS 
 16. Form Handling In Express.JS 
