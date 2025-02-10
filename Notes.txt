@@ -83,7 +83,16 @@ res.json,res.send,res.sendFile
 
 ===============================================================================================================
 
-14. Template Engine (ejs || SSR (Server Side Rendering ))
+14. Template Engine (ejs || SSR (Server Side Rendering ))  ✅✅✅
+A template engine is a tool used in web development to dynamically generate HTML pages by 
+combining static templates with data. It allows developers to embed variables and control 
+structures (like loops and conditionals) within HTML, making it easier to create dynamic and 
+reusable web pages. Template engines are used to separate the presentation layer from the business 
+logic, promoting cleaner code and easier maintenance.
+
+for Ejs we use res.render();
+===============================================================================================================
+
 15. Set Static fie In ejs, Express.JS 
 16. Form Handling In Express.JS 
 17. MongoDB Atlas Setup 
