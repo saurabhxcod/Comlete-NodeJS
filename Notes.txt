@@ -98,7 +98,11 @@ we use middleware to set static file in ejs.
 
 ===============================================================================================================
 
-16. Form Handling In Express.JS 
+16. Form Handling In Express.JS   ✅✅✅
+req.body;
+
+===============================================================================================================
+
 17. MongoDB Atlas Setup 
 18. Connect MongoDB + Express.JS 
 19. MVC - Models Views & Controllers In Express.JS 
