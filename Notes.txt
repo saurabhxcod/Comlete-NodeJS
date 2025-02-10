@@ -67,8 +67,15 @@ Syntax->npm i Express
 
 ===============================================================================================================
 
-11. Create Server In Express.JS 
-12. CRUD Operation In Express.JSnn 
+11. Create Server & Routing in Express.JS ✅✅✅
+app.listen,app.get(for routing)
+===============================================================================================================
+
+12. CRUD Operation In Express.JSON  ✅✅✅
+
+===============================================================================================================
+
+
 13. Send JSON, HTML, HTML File In Response 
 14. Template Engine (ejs || SSR (Server Side Rendering ))
 15. Set Static fie In ejs, Express.JS 
