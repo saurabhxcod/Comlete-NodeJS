@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+</head>
+<body>
+    <div class="container">
+        <h1>URL Shortener</h1>
+        <form action="/shorten" method="POST">
+            <label for="longURL">Enter Long URL:</label>
+            <input type="text" name="longURL" id="longURL" required>
+            <button type="submit">Shorten</button>
+        </form>
+
+        <% if (shortURL) { %>
+            <p>Short URL: 
+                <a href="<%= shortURL %>" target="_blank"></a>
+                <%= shortURL %>
+            </p>
+        <% } %>
+    </div>
+</body>
+</html>
