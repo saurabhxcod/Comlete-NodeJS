@@ -103,8 +103,15 @@ req.body;
 
 ===============================================================================================================
 
-17. MongoDB Atlas Setup 
+17. MongoDB Atlas Setup  ✅✅✅
+
+===============================================================================================================
+
 18. Connect MongoDB + Express.JS 
+
+===============================================================================================================
+
+Syntax->npm i mongoose express
 19. MVC - Models Views & Controllers In Express.JS 
 20. Project - 1 [URL - Shortener] 
 21. Project -2 [Image Uploader ] - Multer & Cloudinary 
