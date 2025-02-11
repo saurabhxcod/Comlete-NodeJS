@@ -107,12 +107,26 @@ req.body;
 
 ===============================================================================================================
 
-18. Connect MongoDB + Express.JS 
-
+18. Connect MongoDB + Express.JS  ✅✅✅
+Syntax->npm i mongoose express
 ===============================================================================================================
 
-Syntax->npm i mongoose express
-19. MVC - Models Views & Controllers In Express.JS 
+19. MVC - Models Views & Controllers In Express.JS  ✅✅✅
+MongoDB Database-> User.create(req.body);
+
+ try {
+        let user = await User.create(req.body)
+        res.json({
+            message: "User created successfully.",
+            NewUser: user,
+            success: true, 
+        })
+    } catch (error) {
+        res.json({message:error.message})
+   }
+   
+===============================================================================================================
+
 20. Project - 1 [URL - Shortener] 
 21. Project -2 [Image Uploader ] - Multer & Cloudinary 
 22. Project - 3 [Full Stack Authentication With File Upload] 
