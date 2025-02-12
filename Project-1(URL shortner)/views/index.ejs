@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>URL Shortener</h1>
-        <form action="/shorten" method="POST">
+        <form action="/short" method="POST">
             <label for="longURL">Enter Long URL:</label>
             <input type="text" name="longURL" id="longURL" required>
             <button type="submit">Shorten</button>
@@ -16,7 +17,7 @@
 
         <% if (shortURL) { %>
             <p>Short URL: 
-                <a href="<%= shortURL %>" target="_blank"></a>
+                <a href="<%= shortURL %>" target="_blank"/>
                 <%= shortURL %>
             </p>
         <% } %>
