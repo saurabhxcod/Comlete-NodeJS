@@ -131,7 +131,11 @@ MongoDB Database-> User.create(req.body);
 
 ===============================================================================================================
 
-21. Project -2 [Image Uploader ] - Multer & Cloudinary 
+21. Project -2 [Image Uploader ] - Multer & Cloudinary  ✅✅✅
+
+===============================================================================================================
+
+
 22. Project - 3 [Full Stack Authentication With File Upload] 
 23. What is API ? Sudh Desi Bhasha Mai Explain! 
 24. Project - 4 [Contact API With Full Authentication] 
