@@ -59,6 +59,7 @@ This roadmap provides a **step-by-step guide** to mastering **Node.js**, **Expre
 ✅ **Project 1:** URL Shortener  
 ✅ **Project 2:** Image Uploader (Multer & Cloudinary)  
 ✅ **Project 3:** Full-Stack Authentication with File Upload  
+✅ **Project 4:** Contact API with Full Authentication 
 
 ## 🔗 8. API Development  
 ✅ What is an API? (Explained in Simple Terms)  

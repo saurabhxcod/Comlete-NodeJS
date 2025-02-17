@@ -135,8 +135,10 @@ MongoDB Database-> User.create(req.body);
 
 ===============================================================================================================
 
+22. Project - 3 [Full Stack Authentication With File Upload]  ✅✅✅
 
-22. Project - 3 [Full Stack Authentication With File Upload] 
+===============================================================================================================
+
 23. What is API ? Sudh Desi Bhasha Mai Explain! 
 24. Project - 4 [Contact API With Full Authentication] 
 25. API Testing - Postman & ThunderClient 
