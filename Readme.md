@@ -60,6 +60,8 @@ This roadmap provides a **step-by-step guide** to mastering **Node.js**, **Expre
 ✅ **Project 2:** Image Uploader (Multer & Cloudinary)  
 ✅ **Project 3:** Full-Stack Authentication with File Upload  
 ✅ **Project 4:** Contact API with Full Authentication 
+✅ **Project 5:** Ecommerce API with Full Authentication 
+
 
 ## 🔗 8. API Development  
 ✅ What is an API? (Explained in Simple Terms)  
@@ -73,7 +75,7 @@ This roadmap provides a **step-by-step guide** to mastering **Node.js**, **Expre
 ✅ Middleware in API (Adding Auth Middleware)  
 
 ## 🌍 9. Deployment  
-✅ Deploying API to **Render**  
+✅ Deploying API to **Render**
 
 ---
 
