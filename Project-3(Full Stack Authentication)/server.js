@@ -23,6 +23,7 @@ mongoose.connect(process.env.MONGODB_URI, { dbName: 'Image_Uploader' })
 
 //middleware
 app.use(express.static(path.join(path.resolve(), 'public')))
+app.use(express.urlencoded({extended:true}))
 
 
 //rendering login.ejs file
@@ -81,6 +82,7 @@ app.post('/register', upload.single('file'), async (req, res, next) => {
 //login
 app.post('/login',async(req,res)=>{
     const {email,password}=req.body;
+    // console.log("Printing the body",req.body)
 
     let user=await User.findOne({email})
     if(!user) res.render("login.ejs")
