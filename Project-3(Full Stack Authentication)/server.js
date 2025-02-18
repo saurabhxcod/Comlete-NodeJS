@@ -18,7 +18,7 @@ cloudinary.config({
 
 //DB Connection
 mongoose.connect(process.env.MONGODB_URI, { dbName: 'Image_Uploader' })
-    .then(() => { console.log("MognoDB Connected!!!") })
+    .then(() => { console.log("MongoDB Connected!!!") })
     .catch((err) => console.log(err));
 
 //middleware
