@@ -146,10 +146,10 @@ MongoDB Database-> User.create(req.body);
 
 24. Project - 4 [Contact API With Full Authentication]  ✅✅✅
 In this Project we will learn multi topics mentioned below.
-25. API Testing - Postman & ThunderClient 
+25. API Testing - Postman & ThunderClient  ✅✅✅
 26. Add MongoDB In API || CRUD Operation In API 
 27. User Register & Login API 
-28. Bcrypt.JS In API || Hashing The Password 
+28. Bcrypt.JS In API || Hashing The Password   ✅✅✅ ->We use Bcrypt.js for hashing the password.
 29. Http Status Code In API 
 30. Convert API to MVC 
 31. Middleware In API || Add Auth Middleware In API 
@@ -157,4 +157,4 @@ In this Project we will learn multi topics mentioned below.
 
 ===============================================================================================================
 
-33.Ecommerce API with Full Authentication
+33.Ecommerce API with Full Authentication 
