@@ -6,6 +6,7 @@ import dotenv from 'dotenv'
 dotenv.config();
 import bodyParser from 'express'
 import userRouter from './Routes/User.js'
+import contactRouter from './Routes/Contact.js'
 
 const app=express();
 const PORT=2000;
@@ -17,8 +18,12 @@ mongoose.connect(process.env.MONGODB_URI,{dbName:"Contact_API"})
 .catch((err)=>console.log(err))
 
 
-//middleware
+//userRouter
 app.use('/api/user',userRouter);
+//contact Router
+app.use('/api/contact',contactRouter);
+
+
 //home route
 app.get('/',(req,res)=>{
     res.json({message:"This is home route."})
