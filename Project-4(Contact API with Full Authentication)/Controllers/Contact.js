@@ -16,7 +16,8 @@ export const newContact=async(req,res)=>{
         name,
         email,
         phone,
-        type,
+        type, 
+        user:req.user
     })
     res.json({message:"Contact Saved Successfully",saveContact,success:true})
 
@@ -45,6 +46,15 @@ export const getContactById=async(req,res)=>{
     const userContact=await Contact.findById(id)
     if(!userContact) res.json({message:"No contact found",success:false})
     res.json({message:"Contact Fetched",userContact,success:true})
+}
+
+
+//get Contact by User ID
+export const getContactByUserId=async(req,res)=>{
+    const id=req.params.id
+    const userContact=await Contact.find({user:id})
+    if(!userContact) res.json({message:"No contact found",success:false})
+    res.json({message:"User Specific Contact Fetched",userContact,success:true})
 }
 
 //delete Contact by ID

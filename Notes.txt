@@ -147,13 +147,38 @@ MongoDB Database-> User.create(req.body);
 24. Project - 4 [Contact API With Full Authentication]  ✅✅✅
 In this Project we will learn multi topics mentioned below.
 25. API Testing - Postman & ThunderClient  ✅✅✅
-26. Add MongoDB In API || CRUD Operation In API 
-27. User Register & Login API 
+26. Add MongoDB In API || CRUD Operation In API   ✅✅✅
+27. User Register & Login API  ✅✅✅
 28. Bcrypt.JS In API || Hashing The Password   ✅✅✅ ->We use Bcrypt.js for hashing the password.
-29. Http Status Code In API 
-30. Convert API to MVC 
-31. Middleware In API || Add Auth Middleware In API 
-32. Deploy API to Render
+29. Http Status Code In API  ✅✅✅
+
+Here are some important HTTP status codes with brief descriptions:
+
+1. **200 OK**: The request has succeeded. The information returned with the response is dependent on the method used in the request.
+
+2. **201 Created**: The request has been fulfilled and has resulted in one or more new resources being created.
+
+3. **204 No Content**: The server successfully processed the request, but is not returning any content.
+
+4. **400 Bad Request**: The server could not understand the request due to invalid syntax.
+
+5. **401 Unauthorized**: The client must authenticate itself to get the requested response.
+
+6. **403 Forbidden**: The client does not have access rights to the content.
+
+7. **404 Not Found**: The server can not find the requested resource.
+
+8. **500 Internal Server Error**: The server has encountered a situation it doesn't know how to handle.
+
+9. **502 Bad Gateway**: The server, while acting as a gateway or proxy, received an invalid response from the upstream server.
+
+10. **503 Service Unavailable**: The server is not ready to handle the request, often due to being overloaded or down for maintenance.
+
+===============================================================================================================
+
+30. Convert API to MVC  ✅✅✅
+31. Middleware In API || Add Auth Middleware In API  ✅✅✅
+32. Deploy API to Render  ✅✅✅
 
 ===============================================================================================================
 

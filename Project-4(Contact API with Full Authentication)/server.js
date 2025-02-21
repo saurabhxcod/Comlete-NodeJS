@@ -2,14 +2,14 @@
 
 import express from "express";
 import mongoose from "mongoose";
-import dotenv from 'dotenv'
-dotenv.config();
+import {config} from 'dotenv';
+config({path:'.env'})
 import bodyParser from 'express'
 import userRouter from './Routes/User.js'
 import contactRouter from './Routes/Contact.js'
 
 const app=express();
-const PORT=2000;
+const PORT=process.env.PORT;
 
 app.use(bodyParser.json())
 //DB connection
